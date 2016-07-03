@@ -1,6 +1,6 @@
 # Base docker file
 
-FROM fedora:rawhide
+FROM fedora:latest
 
 MAINTAINER gsiitbhu@gmail.com
 
