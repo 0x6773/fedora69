@@ -13,3 +13,4 @@ RUN dnf update -y && \
     # Download my .vimrc
     wget https://gist.githubusercontent.com/mafiya69/eff689ff5030fa457d69f48f9dc19ae7/raw/32a6d3a9df88df2e111976dde2ba5ecef80cbbb3/.vimrc -O ~/.vimrc
 
+CMD ["/bin/zsh"]
